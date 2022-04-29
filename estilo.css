@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1, h2, h3, h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body, header, main, div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    
+    
+}
+header img{
+    width: 360px;
+}
+h1{
+    font-weight: bold;
+}
+h2{
+    color: orange;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 2px solid orange;
+    width: 720px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: orange;
+}
+div{
+    background-color: orange;
+    width: 720px;
+    padding: 50px;
+    
+}
+main div img, main div p{
+    width: 500px;
+}
+main img{
+    width: 720px;
+    height: auto;
+    margin: 30px 0 50px 0;
+}
+div p{
+    text-align:center;
+    width: 700px;
+    line-height: 2em;
+    color: #fff;
+}
+main p{
+    line-height: 3em;
+}
+span{
+    font-weight: bold;
+    
+}
